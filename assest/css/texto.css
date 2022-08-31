@@ -1,0 +1,29 @@
+.texto {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    line-height: 1.1;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.texto__principal {
+    font-family: Helvetica, sans-serif;
+}   
+
+.texto__primeiro {
+    font-size: 50px;
+    font-weight: 540;
+    text-align: center;
+}
+
+.texto__secundario {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 1rem auto;
+    text-align: center;
+}

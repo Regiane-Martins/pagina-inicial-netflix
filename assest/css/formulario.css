@@ -1,0 +1,43 @@
+.form__email {
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.85rem;
+}
+
+.form__btn {
+    background-color: #e50914;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    height: 50px;
+    padding: 0 1rem;
+    width: 200px;
+    border: none;
+}
+
+.email {
+    font-size: 20px;
+    height: 50px;
+    width: 400px;
+    font-weight: 100;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.form__texto {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.form__email-fields {
+    display: flex;
+}

@@ -1,0 +1,45 @@
+.logo {
+    height: 36px;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+}
+
+.menu__btn {
+    margin-left: 1.5rem;
+}
+
+.btn, .menu__btn--lang {
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+}
+
+.menu__btn--lang {
+    background: transparent;
+    border: 2px solid rgb(169, 160, 160);
+    margin: 0 0.85rem;
+    margin-right: 30px;
+}
+
+.login {
+    background-color: #e50914;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.login btn:hover {
+    cursor: pointer;
+}
+
+
